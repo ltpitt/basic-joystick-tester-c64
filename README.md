@@ -9,3 +9,5 @@ If you are using a disk reader load it using:
 
 If you are using tape just press:  
 ```Commodore + Run/Stop``` and then hit ```Play``` on tape.
+
+Once the program is running simply use your joystick and you will receive audiovisive feedback confirming the action. 
