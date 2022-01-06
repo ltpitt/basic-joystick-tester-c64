@@ -1,4 +1,6 @@
+5  rem ***
 10 rem *** main program
+15 rem ***
 20 rem set text color
 30 poke 53280,0
 40 rem set border color
@@ -28,7 +30,9 @@
 280 print"you pressed: " bu$
 290 goto 140
 300 end
+305 rem ***
 310 rem *** play sound effect
+315 rem ***
 320 for x=54272 to 54296:poke x,0:next
 330 poke 54296,15
 340 poke 54277,190
@@ -38,7 +42,9 @@
 380 for x=1 to 250:next
 390 poke 54276,17
 400 return
+405 rem ***
 410 rem *** move cursor at row, col
+415 rem ***
 420 poke 780,0
 430 poke 781,row
 440 poke 782,col
