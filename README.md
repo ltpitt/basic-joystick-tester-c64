@@ -8,10 +8,12 @@ If you are using a disk reader load it using:
 ```LOAD"*",8,1```
 Once program is loaded write:  
 ```RUN```
-And press the Return key. 
+And press:  
+```Return``` key. 
 
-If you are using tape just press:  
+If you are using tape just press the keys:  
 ```Commodore + Run/Stop```  
-and then press ```Play``` on tape.
+and then press:  
+```Play``` on tape.
 
 Once the program is running simply use your joystick and you will receive audiovisive feedback confirming the action. 
