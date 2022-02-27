@@ -12,8 +12,8 @@ If you are using a floppy disk load it using:
 ## Tape
 If you are using a tape just press the keys:  
 ```Commodore + Run/Stop```  
-and then press:  
-```Play``` on tape.
+
+and then press ```Play``` on tape.
 
 # How to run the application
 Once program is loaded type:  
