@@ -10,7 +10,7 @@ If you are using a disk reader load it using:
 Once program is loaded type:  
 ```RUN```  
 And press:  
-```Return``` key. 
+```Return``` 
 
 If you are using tape just press the keys:  
 ```Commodore + Run/Stop```  
