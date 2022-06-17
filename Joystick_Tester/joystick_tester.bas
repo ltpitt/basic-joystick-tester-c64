@@ -15,23 +15,23 @@
 130 bu$="nada"
 140 j1=not peek(56320)
 150 j2=not peek(56321)
-160 ifj1and1 then bu$="up   ": gosub 310
-170 ifj1and2 then bu$="down ": gosub 310
-180 ifj1and4 then bu$="left ": gosub 310
-190 ifj1and8 then bu$="right": gosub 310
-200 ifj1and16 then bu$="fire "": gosub 310
-210 ifj2and1 then bu$="up   ": gosub 310
-220 ifj2and2 then bu$="down ": gosub 310
-230 ifj2and4 then bu$="left ": gosub 310
-240 ifj2and8 then bu$="right": gosub 310
-250 ifj2and16 then bu$="fire ": gosub 310
+160 ifj1and1 then bu$="p1 up   ": gosub 310
+170 ifj1and2 then bu$="p1 down ": gosub 310
+180 ifj1and4 then bu$="p1 left ": gosub 310
+190 ifj1and8 then bu$="p1 right": gosub 310
+200 ifj1and16 then bu$="p1 fire "": gosub 310
+210 ifj2and1 then bu$="p2 up   ": gosub 310
+220 ifj2and2 then bu$="p2 down ": gosub 310
+230 ifj2and4 then bu$="p2 left ": gosub 310
+240 ifj2and8 then bu$="p2 right": gosub 310
+250 ifj2and16 then bu$="p2 fire ": gosub 310
 260 rem print joystick last press
 270 row=12:col=12:gosub 410
 280 print"you pressed: " bu$
 290 goto 140
 300 end
 305 rem ***
-310 rem *** play sound effect
+310 rem * play sound effect
 315 rem ***
 320 for x=54272 to 54296:poke x,0:next
 330 poke 54296,15
@@ -43,7 +43,7 @@
 390 poke 54276,17
 400 return
 405 rem ***
-410 rem *** move cursor at row, col
+410 rem * move cursor at row, col
 415 rem ***
 420 poke 780,0
 430 poke 781,row
